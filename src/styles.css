@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 73px;
 }
 
 h2 {
@@ -100,6 +100,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: sans-serif;
 }
 .secondary-link {
   border-radius: 4px;
@@ -108,4 +109,13 @@ p {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+@media (max-width: 576px) {
+  .small-btn {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .small-btn-container {
+    display: flex;
+  }
 }
