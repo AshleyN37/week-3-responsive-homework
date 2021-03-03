@@ -82,8 +82,11 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
+}
+.contact {
+  font-size: 32px;
 }
 
 .email-link:hover {
@@ -118,4 +121,7 @@ p {
   .small-btn-container {
     display: flex;
   }
+}
+.primary-link:hover {
+  background-color: #817be7;
 }
